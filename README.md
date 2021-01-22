@@ -4,9 +4,9 @@ Santa has become stranded at the edge of the Solar System while delivering prese
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
-# Days
-- Day 1: The Tyranny of the Rocket Equation
-- Day 2: 1202 Program Alarm
+## Days
+- [Day 1: The Tyranny of the Rocket Equation]
+- [Day 2: 1202 Program Alarm](AOC-Day2/)
 
 # Advent of Code 2019
 http://adventofcode.com/2019
