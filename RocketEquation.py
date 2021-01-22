@@ -106,13 +106,9 @@ def calculateFuel(n):
         return 0
     
     return toplevo_for_toplevo + calculateFuel(toplevo_for_toplevo)
-    
-
-    
 
 # вывод списка модуля (масса) в одну строку
 spisok = [int(i) for i in ves.split()]
-# сумма чисел модуля (массы) 10508248
 # вывод списка чисел топлева для каждого модуля
 spisok_topleva = [int(i / 3 - 2) for i in spisok]
 # вывод суммы потребности топлева для модуля
