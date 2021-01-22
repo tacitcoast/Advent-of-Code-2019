@@ -8,5 +8,5 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 1: The Tyranny of the Rocket Equation](AOC-Day1/)
 - [Day 2: 1202 Program Alarm](AOC-Day2/)
 
-# Advent of Code 2019
+## Advent of Code 2019
 http://adventofcode.com/2019
