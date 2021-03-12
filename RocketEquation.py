@@ -101,19 +101,18 @@ ves = """
 120465"""
 
 def calculateFuel(n):
-    toplevo_for_toplevo = int(n / 3 - 2)
-    if toplevo_for_toplevo <= 0:
+    fuel_for_fuel = int(n / 3 - 2)
+    if fuel_for_fuel <= 0:
         return 0
-    
-    return toplevo_for_toplevo + calculateFuel(toplevo_for_toplevo)
 
-spisok = [int(i) for i in ves.split()]
-spisok_topleva = [int(i / 3 - 2) for i in spisok]
-toplevo = sum(spisok_topleva)
+    return fuel_for_fuel + calculateFuel(fuel_for_fuel)
 
-for i in spisok_topleva:
+list = [int(i) for i in ves.split()]
+fuel_list = [int(i / 3 - 2) for i in list]
+fuel = sum(fuel_list)
+
+for i in fuel_list:
    result = calculateFuel(i)
-   toplevo = toplevo + result
+   fuel = fuel + result
 
-
-print(toplevo)
+print(fuel)
